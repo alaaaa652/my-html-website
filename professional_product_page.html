@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Salam Studio - كوب أكريليك بشمعة</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fdf0f5;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .image-section {
+      flex: 1;
+      min-width: 300px;
+    }
+    .image-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px 0 0 12px;
+      object-fit: cover;
+    }
+    .details-section {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .details-section h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #cc2c77;
+    }
+    .details-section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 20px;
+    }
+    .whatsapp-button {
+      background-color: #cc2c77;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      width: fit-content;
+      transition: background 0.3s ease;
+    }
+    .whatsapp-button:hover {
+      background-color: #e3468d;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 16px;
+      color: #777;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .image-section img {
+        border-radius: 12px 12px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="image-section">
+      <img src="product-image.jpg" alt="كوب أكريليك بشمعة">
+    </div>
+    <div class="details-section">
+      <h1>كوب أكريليك بشمعة</h1>
+      <p>كوب أنيق من الأكريليك الشفاف يحتوي على شمعة فواحة، مثالي للهدايا المخصصة والمناسبات الخاصة.</p>
+      <div class="price">السعر: 120 جنيه</div>
+      <a class="whatsapp-button" href="https://wa.me/201234567890?text=عايز%20اطلب%20كوب%20أكريليك%20بشمعة%20بـ120ج" target="_blank">اطلب على واتساب</a>
+    </div>
+  </div>
+
+  <div class="footer">جميع الحقوق محفوظة © Mohamed Salam Studio</div>
+
+</body>
+</html>
